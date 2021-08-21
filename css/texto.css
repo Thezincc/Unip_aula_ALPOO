@@ -1,0 +1,102 @@
+/* RESET */ 
+/* -------------------------------------------------------- */
+*, *, ::before , * ::after{margin: 0; padding: 0; box-sizing: border-box; -webkit-box-sizing: border-box; }
+body{font-family: 'Open sans-serif' , sans-serif; font-size: inherit; }
+ 
+input, select , iframe , button {border: none ; font-family: 'Open sans-serif' , sans-serif; }
+h1 , h2 , h3 {margin: 0; padding: 0}
+ol , ul {list-style: none; }
+a {text-decoration: none; color: inherit ; }
+a:hover{color: #f9014d; }
+
+/* section */
+ .header {
+     display: none;
+ }
+
+/* section */
+
+.section {
+    float: left;
+    width: 100%;
+}
+
+/* search e estastitic */
+
+.search-box {
+    text-align: center;
+    color: #fff;
+    padding: 100px 0px;
+    background-image: url(../imagem/96-968436_html-background-image-fractal-art.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.search-box h1{
+    font-size: 37;
+    font-weight: bold ;
+}
+
+.search-box .tagline{
+    font-size: 26px;
+
+}
+.search-box form{
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    max-width: 500px;
+    margin-top: 40px;
+}
+
+.search-box form input[type="search"] {
+    width: 100%;
+    height: 50px;
+    font-size: inherit;
+    color: #2c3e50;
+    padding: 0 70px 0 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    
+}
+.search-box form button {
+    background-color:white;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    color : white;
+    font-size: 6px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    border-top-right-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+
+}
+.search-box form .imagem{
+    height: 50px;
+    width: 50px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    
+    
+}
+/* estastistic */
+
+.estatistic  {
+    background: #fff;
+    max-width: 960px;
+    width: 90%;
+    padding: 30px 0;
+    margin: 0 auto;
+    text-align: center;
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px rgba  ( 0,0,0.3 ) ;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba (0,0,0.3) ;
+}
